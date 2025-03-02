@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LABS_2_PR/1.0.0": {
+        "dependencies": {
+          "ClassLibrary2": "1.0.0"
+        },
+        "runtime": {
+          "LABS_2_PR.dll": {}
+        }
+      },
+      "ClassLibrary2/1.0.0": {
+        "runtime": {
+          "ClassLibrary2.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LABS_2_PR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibrary2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
