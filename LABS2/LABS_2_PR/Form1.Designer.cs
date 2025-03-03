@@ -31,23 +31,26 @@
             button2 = new Button();
             btnShowObjects = new Button();
             panelCreateObject = new Panel();
+            button5 = new Button();
+            button4 = new Button();
+            button1 = new Button();
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
             button3 = new Button();
-            textBox7 = new TextBox();
+            txtEngineerSpecialization = new TextBox();
             txtAdminPosition = new TextBox();
-            textBox4 = new TextBox();
+            txtHRCount = new TextBox();
             txtAdminSubordinates = new TextBox();
-            textBox8 = new TextBox();
+            txtEngineerExperience = new TextBox();
             txtAdminResponsibilities = new TextBox();
-            textBox9 = new TextBox();
-            textBox5 = new TextBox();
-            textBox3 = new TextBox();
-            textBox6 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            txtEngineerQualification = new TextBox();
+            txtHRAccounting = new TextBox();
+            txtWorkerSpecialty = new TextBox();
+            txtHRMethods = new TextBox();
+            txtWorkerExperience = new TextBox();
+            txtWorkerQualification = new TextBox();
             btnSaveObject = new Button();
             panelCreateObject.SuspendLayout();
             SuspendLayout();
@@ -72,28 +75,61 @@
             // 
             // panelCreateObject
             // 
+            panelCreateObject.Controls.Add(button5);
+            panelCreateObject.Controls.Add(button4);
+            panelCreateObject.Controls.Add(button1);
             panelCreateObject.Controls.Add(label4);
             panelCreateObject.Controls.Add(label3);
             panelCreateObject.Controls.Add(label2);
             panelCreateObject.Controls.Add(label1);
             panelCreateObject.Controls.Add(button3);
-            panelCreateObject.Controls.Add(textBox7);
+            panelCreateObject.Controls.Add(txtEngineerSpecialization);
             panelCreateObject.Controls.Add(txtAdminPosition);
-            panelCreateObject.Controls.Add(textBox4);
+            panelCreateObject.Controls.Add(txtHRCount);
             panelCreateObject.Controls.Add(txtAdminSubordinates);
-            panelCreateObject.Controls.Add(textBox8);
+            panelCreateObject.Controls.Add(txtEngineerExperience);
             panelCreateObject.Controls.Add(txtAdminResponsibilities);
-            panelCreateObject.Controls.Add(textBox9);
-            panelCreateObject.Controls.Add(textBox5);
-            panelCreateObject.Controls.Add(textBox3);
-            panelCreateObject.Controls.Add(textBox6);
-            panelCreateObject.Controls.Add(textBox2);
-            panelCreateObject.Controls.Add(textBox1);
+            panelCreateObject.Controls.Add(txtEngineerQualification);
+            panelCreateObject.Controls.Add(txtHRAccounting);
+            panelCreateObject.Controls.Add(txtWorkerSpecialty);
+            panelCreateObject.Controls.Add(txtHRMethods);
+            panelCreateObject.Controls.Add(txtWorkerExperience);
+            panelCreateObject.Controls.Add(txtWorkerQualification);
             panelCreateObject.Location = new Point(12, 49);
             panelCreateObject.Name = "panelCreateObject";
             panelCreateObject.Size = new Size(762, 298);
             panelCreateObject.TabIndex = 3;
             panelCreateObject.Visible = false;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(659, 126);
+            button5.Name = "button5";
+            button5.Size = new Size(100, 42);
+            button5.TabIndex = 12;
+            button5.Text = "Сохранить";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(453, 126);
+            button4.Name = "button4";
+            button4.Size = new Size(100, 42);
+            button4.TabIndex = 11;
+            button4.Text = "Сохранить";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(259, 126);
+            button1.Name = "button1";
+            button1.Size = new Size(100, 42);
+            button1.TabIndex = 10;
+            button1.Text = "Сохранить";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label4
             // 
@@ -107,7 +143,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(453, 0);
+            label3.Location = new Point(479, 0);
             label3.Name = "label3";
             label3.Size = new Size(42, 15);
             label3.TabIndex = 8;
@@ -117,7 +153,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(250, 0);
+            label2.Location = new Point(275, 0);
             label2.Name = "label2";
             label2.Size = new Size(59, 15);
             label2.TabIndex = 7;
@@ -136,20 +172,20 @@
             // 
             // button3
             // 
-            button3.Location = new Point(319, 192);
+            button3.Location = new Point(54, 126);
             button3.Name = "button3";
-            button3.Size = new Size(118, 46);
+            button3.Size = new Size(100, 42);
             button3.TabIndex = 3;
             button3.Text = "Сохранить";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
-            // textBox7
+            // txtEngineerSpecialization
             // 
-            textBox7.Location = new Point(659, 29);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(100, 23);
-            textBox7.TabIndex = 5;
+            txtEngineerSpecialization.Location = new Point(659, 29);
+            txtEngineerSpecialization.Name = "txtEngineerSpecialization";
+            txtEngineerSpecialization.Size = new Size(100, 23);
+            txtEngineerSpecialization.TabIndex = 5;
             // 
             // txtAdminPosition
             // 
@@ -158,12 +194,12 @@
             txtAdminPosition.Size = new Size(100, 23);
             txtAdminPosition.TabIndex = 5;
             // 
-            // textBox4
+            // txtHRCount
             // 
-            textBox4.Location = new Point(427, 29);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 5;
+            txtHRCount.Location = new Point(453, 29);
+            txtHRCount.Name = "txtHRCount";
+            txtHRCount.Size = new Size(100, 23);
+            txtHRCount.TabIndex = 5;
             // 
             // txtAdminSubordinates
             // 
@@ -172,12 +208,12 @@
             txtAdminSubordinates.Size = new Size(100, 23);
             txtAdminSubordinates.TabIndex = 4;
             // 
-            // textBox8
+            // txtEngineerExperience
             // 
-            textBox8.Location = new Point(659, 87);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(100, 23);
-            textBox8.TabIndex = 4;
+            txtEngineerExperience.Location = new Point(659, 87);
+            txtEngineerExperience.Name = "txtEngineerExperience";
+            txtEngineerExperience.Size = new Size(100, 23);
+            txtEngineerExperience.TabIndex = 4;
             // 
             // txtAdminResponsibilities
             // 
@@ -186,49 +222,49 @@
             txtAdminResponsibilities.Size = new Size(100, 23);
             txtAdminResponsibilities.TabIndex = 3;
             // 
-            // textBox9
+            // txtEngineerQualification
             // 
-            textBox9.Location = new Point(659, 58);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(100, 23);
-            textBox9.TabIndex = 3;
+            txtEngineerQualification.Location = new Point(659, 58);
+            txtEngineerQualification.Name = "txtEngineerQualification";
+            txtEngineerQualification.Size = new Size(100, 23);
+            txtEngineerQualification.TabIndex = 3;
             // 
-            // textBox5
+            // txtHRAccounting
             // 
-            textBox5.Location = new Point(427, 87);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 4;
+            txtHRAccounting.Location = new Point(453, 87);
+            txtHRAccounting.Name = "txtHRAccounting";
+            txtHRAccounting.Size = new Size(100, 23);
+            txtHRAccounting.TabIndex = 4;
             // 
-            // textBox3
+            // txtWorkerSpecialty
             // 
-            textBox3.Location = new Point(234, 29);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 2;
+            txtWorkerSpecialty.Location = new Point(259, 29);
+            txtWorkerSpecialty.Name = "txtWorkerSpecialty";
+            txtWorkerSpecialty.Size = new Size(100, 23);
+            txtWorkerSpecialty.TabIndex = 2;
             // 
-            // textBox6
+            // txtHRMethods
             // 
-            textBox6.Location = new Point(427, 58);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(100, 23);
-            textBox6.TabIndex = 3;
-            textBox6.TextChanged += textBox6_TextChanged;
+            txtHRMethods.Location = new Point(453, 58);
+            txtHRMethods.Name = "txtHRMethods";
+            txtHRMethods.Size = new Size(100, 23);
+            txtHRMethods.TabIndex = 3;
+            txtHRMethods.TextChanged += textBox6_TextChanged;
             // 
-            // textBox2
+            // txtWorkerExperience
             // 
-            textBox2.Location = new Point(234, 87);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 1;
-            textBox2.TextChanged += textBox2_TextChanged;
+            txtWorkerExperience.Location = new Point(259, 87);
+            txtWorkerExperience.Name = "txtWorkerExperience";
+            txtWorkerExperience.Size = new Size(100, 23);
+            txtWorkerExperience.TabIndex = 1;
+            txtWorkerExperience.TextChanged += textBox2_TextChanged;
             // 
-            // textBox1
+            // txtWorkerQualification
             // 
-            textBox1.Location = new Point(234, 58);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 0;
+            txtWorkerQualification.Location = new Point(259, 58);
+            txtWorkerQualification.Name = "txtWorkerQualification";
+            txtWorkerQualification.Size = new Size(100, 23);
+            txtWorkerQualification.TabIndex = 0;
             // 
             // btnSaveObject
             // 
@@ -260,15 +296,15 @@
         private Button button2;
         private Button btnShowObjects;
         private Panel panelCreateObject;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
+        private TextBox txtWorkerExperience;
+        private TextBox txtWorkerQualification;
+        private TextBox txtWorkerSpecialty;
+        private TextBox txtHRCount;
+        private TextBox txtHRAccounting;
+        private TextBox txtHRMethods;
+        private TextBox txtEngineerSpecialization;
+        private TextBox txtEngineerExperience;
+        private TextBox txtEngineerQualification;
         private Button button3;
         private TextBox txtAdminPosition;
         private TextBox txtAdminSubordinates;
@@ -278,5 +314,8 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private Button button5;
+        private Button button4;
+        private Button button1;
     }
 }

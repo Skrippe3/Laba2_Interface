@@ -112,17 +112,13 @@
             Console.WriteLine($"РЎРїРµС†РёР°Р»СЊРЅРѕСЃС‚СЊ СЃРјРµРЅРёР»Р°СЃСЊ СЃ {_specialization} РЅР° {NewSpecialization}");
         }
 
-        public void FillData()
+        public void FillData(string specialization, string qualification, string experience)
         {
-            Console.Write("Р’РІРµРґРёС‚Рµ СЃРїРµС†РёР°Р»СЊРЅРѕСЃС‚СЊ: ");
-            Specialization = Console.ReadLine();
-
-            Console.Write("Р’РІРµРґРёС‚Рµ СѓСЂРѕРІРµРЅСЊ РєРІР°Р»РёС„РёРєР°С†РёРё: ");
-            Qualification = Console.ReadLine();
-
-            Console.Write("Р’РІРµРґРёС‚Рµ РѕРїС‹С‚: ");
-            DesignExperience = int.Parse(Console.ReadLine());
+            Specialization = specialization;
+            Qualification = qualification;
+            DesignExperience = Int32.Parse(experience);
         }
+
 
     }
 
@@ -195,17 +191,13 @@
             }
         }
 
-        public void FillData()
+        public void FillData(string employeeCount, string recruitmentMethods, string accountingSystem)
         {
-            Console.Write("Р’РІРµРґРёС‚Рµ РљРѕР»РёС‡РµСЃС‚РІРѕ: ");
-            EmployeeCount = int.Parse(Console.ReadLine());
-
-            Console.Write("Р’РІРµРґРёС‚Рµ РњРµС‚РѕРґ РЅР°Р№РјР°: ");
-            RecruitmentMethods = Console.ReadLine();
-
-            Console.Write("Р’РІРµРґРёС‚Рµ РЎРёСЃС‚РµРјСѓ СѓС‡РµС‚Р°: ");
-            AccountingSystem = Console.ReadLine();
+            EmployeeCount = Int32.Parse(employeeCount);
+            RecruitmentMethods = recruitmentMethods;
+            AccountingSystem = accountingSystem;
         }
+
     }
 
     public class Worker : Administration
@@ -263,25 +255,13 @@
             Console.WriteLine($"РћР±СЂР°Р·РѕРІР°РЅРёРµ: {_specialty} \n РЈСЂРѕРІРµРЅСЊ РєРІР°Р»РёС„РёРєР°С†РёРё: {_qualificationLevel} \n РћРїС‹С‚: {_experience}");
         }
 
-        public void FillData()
+        public void FillData(string specialty, string qualificationLevel, string experience)
         {
-            Console.Write("Р’РІРµРґРёС‚Рµ РѕР±СЂР°Р·РѕРІР°РЅРёРµ: ");
-            Specialty = Console.ReadLine();
-
-            Console.Write("Р’РІРµРґРёС‚Рµ СѓСЂРѕРІРµРЅСЊ РєРІР°Р»РёС„РёРєР°С†РёРё: ");
-            QualificationLevel = Console.ReadLine();
-
-            Console.Write("Р’РІРµРґРёС‚Рµ РѕРїС‹С‚ (С‡РёСЃР»Рѕ): ");
-            if (int.TryParse(Console.ReadLine(), out int exp))
-            {
-                Experience = exp;
-            }
-            else
-            {
-                Console.WriteLine("РћС€РёР±РєР° РІРІРѕРґР°. РћРїС‹С‚ СѓСЃС‚Р°РЅРѕРІР»РµРЅ РІ 0.");
-                Experience = 0;
-            }
+            Specialty = specialty;
+            QualificationLevel = qualificationLevel;
+            Experience = Int32.Parse(experience);
         }
+
 
     }
 

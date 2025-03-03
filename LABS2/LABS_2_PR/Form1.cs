@@ -2,6 +2,7 @@ using System.Xml.Serialization;
 using System.Collections.Generic;
 using ClassLibrary2;
 using System;
+using System.Threading.Tasks;
 
 namespace LABS_2_PR
 {
@@ -53,7 +54,7 @@ namespace LABS_2_PR
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private async void button3_Click(object sender, EventArgs e)
         {
             //SaveToXmlAsync<T>();
 
@@ -61,16 +62,42 @@ namespace LABS_2_PR
             admin.FillData(txtAdminPosition.Text, txtAdminResponsibilities.Text, txtAdminSubordinates.Text);
 
             admins.Add(admin);
-            MessageBox.Show("Данные успешно сохранены!");
+            await SaveToXmlAsync(admins, "admin.xml");
         }
 
-        public async Task SaveToXmlAsync<T>(List<T> data)
+        private async void button1_Click(object sender, EventArgs e)
+        {
+            Worker worker = new Worker();
+            worker.FillData(txtWorkerExperience.Text, txtWorkerQualification.Text, txtWorkerSpecialty.Text);
+            workers.Add(worker);
+            await SaveToXmlAsync(workers, "worker.xml");
+        }
+
+        private async void button4_Click(object sender, EventArgs e)
+        {
+            HumanResources hr = new HumanResources();
+            hr.FillData(txtHRAccounting.Text, txtHRCount.Text, txtHRMethods.Text);
+
+            HR.Add(hr);
+            await SaveToXmlAsync(HR, "hr.xml");
+        }
+
+        private async void button5_Click(object sender, EventArgs e)
+        {
+            Engineer engineer = new Engineer();
+            engineer.FillData(txtEngineerExperience.Text, txtEngineerQualification.Text,txtEngineerSpecialization.Text);
+
+            engineers.Add(engineer);
+            await SaveToXmlAsync(engineers, "engineer.xml");
+        }
+
+        public async Task SaveToXmlAsync<T>(List<T> data, string filePath)
         {
             await Task.Run(() =>
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<T>));
 
-                using (FileStream fs = new FileStream("data.xml", FileMode.OpenOrCreate))
+                using (FileStream fs = new FileStream(filePath, FileMode.Create))
                 {
                     xmlSerializer.Serialize(fs, data);
 

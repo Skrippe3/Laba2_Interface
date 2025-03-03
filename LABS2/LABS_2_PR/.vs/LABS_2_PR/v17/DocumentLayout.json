@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pereb\\source\\repos\\Laba2_Interface\\LABS2\\LABS_2_PR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E78F86A-95D7-4950-A391-173CB6BED4B9}|LABS_2_PR.csproj|C:\\Users\\pereb\\source\\repos\\Laba2_Interface\\LABS2\\LABS_2_PR\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8E78F86A-95D7-4950-A391-173CB6BED4B9}|LABS_2_PR.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E78F86A-95D7-4950-A391-173CB6BED4B9}|LABS_2_PR.csproj|c:\\users\\pereb\\source\\repos\\laba2_interface\\labs2\\labs_2_pr\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E78F86A-95D7-4950-A391-173CB6BED4B9}|LABS_2_PR.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0AFFC7B-B609-4437-858D-FEAAF8279925}|..\\ClassLibrary2\\ClassLibrary2.csproj|c:\\users\\pereb\\source\\repos\\laba2_interface\\labs2\\classlibrary2\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\pereb\\source\\repos\\Laba2_Interface\\LABS2\\ClassLibrary2\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary2\\Class1.cs",
+              "ToolTip": "C:\\Users\\pereb\\source\\repos\\Laba2_Interface\\LABS2\\ClassLibrary2\\Class1.cs",
+              "RelativeToolTip": "..\\ClassLibrary2\\Class1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwKMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:49:33.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\pereb\\source\\repos\\Laba2_Interface\\LABS2\\LABS_2_PR\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\pereb\\source\\repos\\Laba2_Interface\\LABS2\\LABS_2_PR\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:20:34.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\pereb\\source\\repos\\Laba2_Interface\\LABS2\\LABS_2_PR\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\pereb\\source\\repos\\Laba2_Interface\\LABS2\\LABS_2_PR\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:18:15.126Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

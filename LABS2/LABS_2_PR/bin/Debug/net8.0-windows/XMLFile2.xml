@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWorker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Worker>
+    <BaseRate>1.5</BaseRate>
+    <Position>Undefined</Position>
+    <Responsibilities>Undefined</Responsibilities>
+    <SubordinatesCount>0</SubordinatesCount>
+    <Specialty>4</Specialty>
+    <QualificationLevel>dgr</QualificationLevel>
+    <Experience>5</Experience>
+  </Worker>
+</ArrayOfWorker>
