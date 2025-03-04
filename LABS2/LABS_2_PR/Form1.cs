@@ -62,7 +62,7 @@ namespace LABS_2_PR
             admin.FillData(txtAdminPosition.Text, txtAdminResponsibilities.Text, txtAdminSubordinates.Text);
 
             admins.Add(admin);
-            await SaveToXmlAsync(admins, "admin.xml");
+            await SaveToXmlAsync(admins, Path.Combine([Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "admin.xml"]));
         }
 
         private async void button1_Click(object sender, EventArgs e)
@@ -97,7 +97,7 @@ namespace LABS_2_PR
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<T>));
 
-                using (FileStream fs = new FileStream(filePath, FileMode.Create))
+                using (var fs = new StreamWriter(filePath))
                 {
                     xmlSerializer.Serialize(fs, data);
 

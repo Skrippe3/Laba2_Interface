@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEngineer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Engineer>
+    <BaseRate>1.5</BaseRate>
+    <Position>Undefined</Position>
+    <Responsibilities>Undefined</Responsibilities>
+    <SubordinatesCount>0</SubordinatesCount>
+    <Specialty>Undefined</Specialty>
+    <QualificationLevel>Undefined</QualificationLevel>
+    <Experience>0</Experience>
+    <Specialization>dsv</Specialization>
+    <Qualification>dbf</Qualification>
+    <DesignExperience>5</DesignExperience>
+  </Engineer>
+</ArrayOfEngineer>

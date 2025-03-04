@@ -21,3 +21,15 @@ C:\Users\pereb\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0
 C:\Users\pereb\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\refint\ClassLibrary2.dll
 C:\Users\pereb\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.pdb
 C:\Users\pereb\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\ref\ClassLibrary2.dll
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\bin\Debug\net8.0\ClassLibrary2.deps.json
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\bin\Debug\net8.0\ClassLibrary2.dll
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\bin\Debug\net8.0\ClassLibrary2.pdb
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.AssemblyInfoInputs.cache
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.AssemblyInfo.cs
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.csproj.CoreCompileInputs.cache
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.sourcelink.json
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.dll
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\refint\ClassLibrary2.dll
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.pdb
+C:\Users\Виталя\Source\Repos\Laba2_Interface\LABS2\ClassLibrary2\obj\Debug\net8.0\ref\ClassLibrary2.dll
